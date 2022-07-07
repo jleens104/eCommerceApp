@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1025613835081",
+    "project_id": "my-mall-fba13",
+    "storage_bucket": "my-mall-fba13.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025613835081:android:7c2a119245cfd3c6838898",
+        "android_client_info": {
+          "package_name": "com.aeon.mymall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025613835081-a8m1ef93hg695rn1n5sc6ehls149ugmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI8T6EUrosY8A0E8wnRUnV1AEtBEqGzfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025613835081-a8m1ef93hg695rn1n5sc6ehls149ugmc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

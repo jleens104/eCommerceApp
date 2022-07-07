@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.aeon.mymall.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <!--<fragment
+       android:id="@+id/nav_gallery"
+       android:name="com.aeon.mymall.ui.gallery.GalleryFragment"
+       android:label="@string/menu_gallery"
+       tools:layout="@layout/fragment_gallery" />
+
+   <fragment
+       android:id="@+id/nav_slideshow"
+       android:name="com.aeon.mymall.ui.slideshow.SlideshowFragment"
+       android:label="@string/menu_slideshow"
+       tools:layout="@layout/fragment_slideshow" />-->
+
+    <!--THIS SHOULD CONTAIN EACH MENU OF THE DRAWER with fragment layout as above-->
+
+    <fragment
+        android:id="@+id/nav_my_mall"
+        android:name="com.aeon.mymall.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_my_orders"
+        android:name="com.aeon.mymall.MyOrderFragment"
+        android:label="@string/menu_order"
+        tools:layout="@layout/fragment_my_order" />
+
+    <fragment
+        android:id="@+id/nav_my_rewards"
+        android:name="com.aeon.mymall.MyRewardsFragment"
+        android:label="@string/menu_reward"
+        tools:layout="@layout/fragment_my_rewards" />
+
+
+    <!-- android:id="@+id/nav_my_rewards"
+     android:id="@+id/nav_my_cart"
+     android:id="@+id/nav_my_wishlist"
+     android:id="@+id/nav_my_account"
+     android:id="@+id/nav_sign_out"
+-->
+    <fragment
+        android:id="@+id/nav_my_cart"
+        android:name="com.aeon.mymall.MyCartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_my_cart" />
+
+    <fragment
+        android:id="@+id/nav_my_wishlist"
+        android:name="com.aeon.mymall.MyWishlistFragment"
+        android:label="@string/menu_wishlist"
+        tools:layout="@layout/fragment_my_wishlist" />
+
+    <fragment
+        android:id="@+id/nav_my_account"
+        android:name="com.aeon.mymall.MyAccountFragment"
+        android:label="@string/menu_account"
+        tools:layout="@layout/fragment_my_account" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.aeon.mymall.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_slideshow" />
+
+
+</navigation>

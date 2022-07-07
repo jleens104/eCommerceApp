@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_mall"
+            android:icon="@drawable/icons8_my_mall"
+            android:enabled="true"
+            android:title="My Mall" />
+        <item
+            android:id="@+id/nav_my_orders"
+            android:icon="@drawable/icons8_shopping_bag"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_my_rewards"
+            android:icon="@drawable/icons8_gift"
+            android:title="My Rewards" />
+        <item
+            android:id="@+id/nav_my_cart"
+            android:icon="@drawable/icons8_favorite_cart"
+            android:title="My Cart" />
+        <item
+            android:id="@+id/nav_my_wishlist"
+            android:icon="@drawable/icons8_wishlist"
+            android:title="My Wishlist" />
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/icons8_account"
+            android:title="My Account" />
+    </group>
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/icons8_sign_out"
+            android:title="Sign Out" />
+
+
+       <!-- <item android:title = "Communicate">
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/nav_gallery"
+                    android:icon="@drawable/ic_baseline_send_24"
+                    android:title="Send" />
+            </menu>
+        </item>-->
+</menu>
